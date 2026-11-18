@@ -78,3 +78,7 @@ tr:nth-child(even) {
     border-radius: 12px;
     margin-top: 10px;
 }
+#titulo-principal {
+    text-align: center;
+    letter-spacing: 1px;
+}
