@@ -1,1 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Registro de la persona Usuaria</title>
+
+    <link rel="stylesheet" href="estilos.css">
+
+</head>
+
+<body>
+
+    <div class="contenedor">
+
+        <h1 id="titulo-formulario">Registro de la persona Usuaria</h1>
+
+        <p class="descripcion">
+            Completa los siguientes campos para crear tu registro.
+        </p>
+
+        <form action="#" method="post">
+
+            <div class="grupo-campo">
+
+                <label for="nombre">Nombre:</label>
+
+                <input type="text" id="nombre" name="nombre"
+                placeholder="Escribe tu nombre" required>
+
+            </div>
+
+            <div class="grupo-campo">
+
+                <label for="apellido">Apellido:</label>
+
+                <input type="text" id="apellido" name="apellido"
+                placeholder="Escribe tu apellido" required>
+
+            </div>
+
+            <div class="grupo-campo">
+
+                <label for="correo">Correo electrónico:</label>
+
+                <input type="email" id="correo" name="correo"
+                placeholder="ejemplo@correo.com" required>
+
+            </div>
+
+            <div class="grupo-campo">
+
+                <label for="contrasena">Contraseña:</label>
+
+                <input type="password" id="contrasena" name="contrasena"
+                placeholder="Escribe una contraseña" required>
+
+            </div>
+
+            <div class="grupo-campo">
+
+                <label for="descripcion">Descripción personal:</label>
+
+                <textarea id="descripcion" name="descripcion"
+                placeholder="Cuéntanos un poco sobre ti..."></textarea>
+
+            </div>
+
+            <fieldset class="grupo-intereses">
+
+                <legend>Selecciona tus intereses:</legend>
+
+                <div class="opcion">
+
+                    <input type="checkbox" id="tecnologia"
+                    name="intereses" value="Tecnología">
+
+                    <label for="tecnologia">Tecnología</label>
+
+                </div>
+
+                <div class="opcion">
+
+                    <input type="checkbox" id="arte"
+                    name="intereses" value="Arte">
+
+                    <label for="arte">Arte</label>
+
+                </div>
+
+                <div class="opcion">
+
+                    <input type="checkbox" id="deporte"
+                    name="intereses" value="Deporte">
+
+                    <label for="deporte">Deporte</label>
+
+                </div>
+
+            </fieldset>
+
+            <button type="submit">Registrarse</button>
+
+        </form>
+
+    </div>
+
+</body>
+</html>
